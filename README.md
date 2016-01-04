@@ -2,6 +2,8 @@
 
 ## Installing software
 
+ * Karabiner
+   * fix annoyances with UK keyboard layout
  * Dropbox
  * 1Password
  * XCode
