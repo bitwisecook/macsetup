@@ -37,9 +37,9 @@
  
 ## Shell
 
-`ln -s `
-`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`
-`sudo vim /Library/Preferences/VMware\ Fusion/networking`
+`ln -s `  
+`ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`  
+`sudo vim /Library/Preferences/VMware\ Fusion/networking`  
 ```
 VERSION=1,0
 answer VNET_1_DHCP yes
