@@ -7,6 +7,7 @@
  * Dropbox
  * 1Password
  * XCode
+ * iStatMenus
  * Homebrew
    * pngcrush
    * ssh-copy-id
@@ -31,6 +32,8 @@
      * Settings Repository
      * https://github.com/bitwisecook/ideasettings.git
  * SourceTree
+ * Office
+ * 
  
 ## Shell
 
