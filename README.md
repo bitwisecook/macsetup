@@ -39,7 +39,7 @@
 
 ### Permit VMs to get NTP
 `sudo launchctl unload /System/Library/LaunchDaemons/org.ntp.ntpd.plist`  
-`sudo bash -c "echo restrict 172.18.40.0>>/etc/ntpd-restrict.conf"`  
+`sudo bash -c "echo restrict 172.18.40.0/24>>/etc/ntpd-restrict.conf"`  
 `sudo launchctl load /System/Library/LaunchDaemons/org.ntp.ntpd.plist`  
 
 ### Setup Sublime Text
