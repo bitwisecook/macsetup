@@ -37,8 +37,15 @@
  
 ## Shell
 
-`ln -s `  
+### Permit VMs to get NTP
+`sudo launchctl unload /System/Library/LaunchDaemons/org.ntp.ntpd.plist`  
+`sudo bash -c "echo restrict 172.18.40.0>>/etc/ntpd-restrict.conf"`  
+`sudo launchctl load /System/Library/LaunchDaemons/org.ntp.ntpd.plist`  
+
+### Setup Sublime Text
 `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`  
+
+### Setup VMware Fusion Networking
 `sudo vim /Library/Preferences/VMware\ Fusion/networking`  
 ```
 VERSION=1,0
