@@ -37,6 +37,9 @@
  
 ## Shell
 
+### Hostname
+`read -p "hostname: " n ; sudo scutil --set ComputerName "$n" ; sudo scutil --set LocalHostName "$n" ; sudo scutil --set HostName "$n"`  
+
 ### Permit VMs to get NTP
 `sudo launchctl unload /System/Library/LaunchDaemons/org.ntp.ntpd.plist`  
 `sudo bash -c "echo restrict 172.18.40.0/24>>/etc/ntpd-restrict.conf"`  
