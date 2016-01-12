@@ -33,7 +33,7 @@
      * https://github.com/bitwisecook/ideasettings.git
  * SourceTree
  * Office
- * 
+ * Whitebox Packages
  
 ## Shell
 
