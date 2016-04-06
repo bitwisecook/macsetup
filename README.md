@@ -84,3 +84,19 @@ answer VNET_8_HOSTONLY_SUBNET 172.18.40.0
 answer VNET_8_NAT yes
 answer VNET_8_VIRTUAL_ADAPTER yes
 ```
+
+### Setup Karabiner
+
+#### Screensaver on Cmd-L
+```
+<root>
+<!-- Place this file to ~/Library/Application Support/Karabiner/private.xml -->
+  <item>
+    <item>
+      <name>Screensaver Lock screen (Cmd-L)</name>
+      <identifier>myconfig.lock</identifier>
+      <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine</autogen>
+    </item>
+  </item>
+</root>
+```
