@@ -48,6 +48,13 @@
 ### Setup Sublime Text
 `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`  
 
+### Setup Homebrew
+```sh
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew install advancecomp augeas autoconf automake bash bash-completion binwalk boot2docker colordiff colormake dialog docker dos2unix fswatch gnu-tar go isl jq libxml2 libyaml mpfr node oniguruma openssl optipng p7zip pngcrush psutils pv python python3 readline redis rgxg rlwrap shiboken sqlite ssdeep ssh-copy-id sudolikeaboss the_silver_searcher ucl unar upx watch xz zopfli
+```
+
 ### Setup VMware Fusion Networking
 `sudo vim /Library/Preferences/VMware\ Fusion/networking`  
 ```
