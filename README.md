@@ -88,7 +88,7 @@ answer VNET_8_VIRTUAL_ADAPTER yes
 ### Setup Karabiner
 
 #### Screensaver on Cmd-L
-```
+```xml
 <root>
 <!-- Place this file to ~/Library/Application Support/Karabiner/private.xml -->
   <item>
