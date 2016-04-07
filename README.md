@@ -96,13 +96,14 @@ answer VNET_8_VIRTUAL_ADAPTER yes
 
 #### Screensaver on Cmd-L
 ```xml
+<?xml version="1.0"?>
 <root>
-<!-- Place this file to ~/Library/Application Support/Karabiner/private.xml -->
+  <!-- Place this file to ~/Library/Application Support/Karabiner/private.xml -->
   <item>
     <item>
       <name>Screensaver Lock screen (Cmd-L)</name>
       <identifier>myconfig.lock</identifier>
-      <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_L, KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine</autogen>
+      <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine</autogen>
     </item>
   </item>
 </root>
