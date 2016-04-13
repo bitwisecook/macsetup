@@ -109,3 +109,19 @@ answer VNET_8_VIRTUAL_ADAPTER yes
   </item>
 </root>
 ```
+
+```sh
+#!/bin/sh
+
+cli=/Applications/Karabiner.app/Contents/Library/bin/karabiner
+
+$cli set myconfig.lock 1
+/bin/echo -n .
+$cli set repeat.initial_wait 200
+/bin/echo -n .
+$cli set repeat.wait 22
+/bin/echo -n .
+$cli set remap.iso_swap_tilda_section 1
+/bin/echo -n .
+/bin/echo
+```
