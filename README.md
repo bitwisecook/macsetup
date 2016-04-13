@@ -104,6 +104,7 @@ answer VNET_8_VIRTUAL_ADAPTER yes
       <name>Screensaver Lock screen (Cmd-L)</name>
       <identifier>myconfig.lock</identifier>
       <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_L | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine</autogen>
+      <autogen>__KeyToKey__ KeyCode::L, ModifierFlag::COMMAND_R | ModifierFlag::NONE, KeyCode::VK_OPEN_URL_APP_ScreenSaverEngine</autogen>
     </item>
   </item>
 </root>
