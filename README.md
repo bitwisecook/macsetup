@@ -47,6 +47,7 @@
 
 ### Setup Sublime Text
 `ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/subl`  
+`defaults write com.apple.LaunchServices/com.apple.launchservices.secure LSHandlers -array-add '{LSHandlerContentType=public.plain-text;LSHandlerRoleAll=com.sublimetext.3;}'`
 
 ### Setup Homebrew
 ```sh
