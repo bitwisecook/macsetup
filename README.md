@@ -6,7 +6,13 @@
    * fix annoyances with UK keyboard layout
  * Dropbox
  * 1Password
+ * Paste
+ * Docker
  * XCode
+ * Dash
+ * Textsoap
+ * Vagrant
+ * Bearded Spice
  * iStatMenus
  * Homebrew
    * pngcrush
