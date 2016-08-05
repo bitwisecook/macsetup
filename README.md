@@ -141,3 +141,7 @@ fisher docker-completion omf-theme/bobthefish omf/brew autojump omf/ssh omf/osx 
 brew install advancecomp ansible ansifilter arping augeas autoconf autojump automake bash bash-completion binwalk boot2docker certbot colordiff colormake dialog docker dos2unix fish fontconfig freetype fswatch gcc gdbm gettext git gmp gnu-tar gnupg go goaccess imagemagick isl jpeg jq letsencrypt libgpg-error libksba libmagic libmpc libnet libpng libtiff libtool libxml2 libyaml mpfr node oniguruma openssl optipng p7zip packer pandoc pcre pcre2 pkg-config pngcrush pssh psutils pv pyside python python3 qt readline redis rename rgxg rlwrap ruby shiboken spatialindex sqlite ssdeep ssh-copy-id ssldump sslyze sudolikeaboss the_silver_searcher tree ucl unar upx watch xmlstarlet xz zopfli
 ```
 
+### Typescript
+```sh
+npm install -g typescript eslint eslint-config-standard eslint-plugin-standard eslint-plugin-promise
+```
