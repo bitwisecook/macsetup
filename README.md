@@ -2,6 +2,8 @@
 
 ## Installing software
 
+ * Mackup
+   * Settings backup for tonnes of important things
  * Karabiner
    * fix annoyances with UK keyboard layout
  * Dropbox
