@@ -61,7 +61,7 @@
 ```sh
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 brew update
-brew install advancecomp augeas autoconf automake bash bash-completion binwalk boot2docker colordiff colormake dialog docker dos2unix fswatch gnu-tar go isl jq libxml2 libyaml mpfr node oniguruma openssl optipng p7zip pngcrush psutils pv python python3 readline redis rgxg rlwrap shiboken sqlite ssdeep ssh-copy-id sudolikeaboss the_silver_searcher ucl unar upx watch xz zopfli
+brew install advancecomp ansible ansifilter apg arping autojump bash bash-completion binwalk certbot colordiff colormake dos2unix ffmpeg figlet fish fswatch gcc ghostscript git gnu-tar gnupg goaccess graphviz hashcat imagemagick simeji/jid/jid jq mackup mkvalidator mkvtoolnix node optipng packer pandoc pigz pixz platformio pngcrush pssh psutils pv python python3 redis rename rgxg rlwrap ruby ssh-copy-id ssldump sslyze the_silver_searcher tree unar upx watch wget zopfli
 ```
 
 ### Setup VMware Fusion Networking
